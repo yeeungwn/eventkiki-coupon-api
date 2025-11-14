@@ -1,8 +1,20 @@
 // 간단한 쿠폰 목록 (차후에 구글시트 연동 가능)
 let coupons = [
-  { code: "COUPON-001", barcode: "https://your-image-url-1.png", used: false },
-  { code: "COUPON-002", barcode: "https://your-image-url-2.png", used: false },
-  { code: "COUPON-003", barcode: "https://your-image-url-3.png", used: false },
+  {
+    code: "ZER0000nk9Tht",
+    barcode: "https://files.chatgptusercontent.com/file/sha256:31bf3c93afcc373fddaba29e072ddeb418662d56802b0983d2940d81da8b5bc4",
+    used: false
+  },
+  {
+    code: "ZER0000nk9THg",
+    barcode: "https://files.chatgptusercontent.com/file/sha256:39f203c4d206c275587c56ba147e80e81cca4af237252c0a246772553a3b6e62",
+    used: false
+  },
+  {
+    code: "ZER0000nk9Ths",
+    barcode: "https://files.chatgptusercontent.com/file/sha256:1e7605f90be774a560be966cdd9cf3b3aa0f0d03fcdcbd7bd467ac25cd336ce9",
+    used: false
+  }
 ];
 
 export default function handler(req, res) {
